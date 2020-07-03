@@ -1,10 +1,16 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ResumePage from './resumePage.jsx'
 
 class Test extends React.Component {
   render() {
-    return <h1>Nicholas Wegfahrt!</h1>;
+    return (
+      <div id="content">
+        <h1>Nicholas Wegfahrt!</h1>
+        <ResumePage/>
+      </div>
+    )
   }
 }
 

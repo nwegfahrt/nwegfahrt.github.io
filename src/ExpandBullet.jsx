@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 
 class ExpandBullet extends React.Component 
 {
@@ -23,18 +24,12 @@ class ExpandBullet extends React.Component
     render() {
         return (
             <div>
-                <table>
-                    <tr>
-                        <td>
-                            <button id="toggle" onClick={this.toggleDetails} >{this.state.btnText}</button>
-                        </td>
-                        <td>
-                            <h4> {this.props.overview}</h4>
-                        </td>
-                    </tr>
-                </table>
+                <div id="bulletLine">
+                                <button id="toggle" onClick={this.toggleDetails} >{this.state.btnText}</button>
+                                <h4 id="bulletMain"> {this.props.overview}</h4>
+                </div>
                 {
-                    this.state.visible ? <div> {this.props.detail}</div> : null
+                    this.state.visible ? <div id="bulletDetail"> {this.props.detail}</div> : null
                 } 
             </div>
         );

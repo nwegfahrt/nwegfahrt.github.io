@@ -1,0 +1,87 @@
+{
+    "Summary": {
+        "Paragraph" : "Hi, I'm Nicholas Wegfahrt a recnet graduate from Drexel University with a Bachelor of Science in Computer Science."
+    },
+    "Experiences": [
+        {
+            "Employer": "Team Aspen/ASH API (Senior Project)",
+            "Location": "Philadelphia, PA",
+            "JobTitle": "Developer",
+            "Bullets": [
+                {
+                    "Title": "Bullet_1",
+                    "Details": "Here I Explain the Bullet_1."
+                },
+                {
+                    "Title": "Bullet_2",
+                    "Details": "Here I Explain the Bullet_2."
+                },
+                {
+                    "Title": "Bullet_3",
+                    "Details": "Here I Explain the Bullet_3."
+                },
+                {
+                    "Title": "Bullet_4",
+                    "Details": "Here I Explain the Bullet_4."
+                }
+            ]
+        },
+        {
+            "Employer": "IPipeline",
+            "Location": "Philadelphia, PA",
+            "JobTitle": "R&D Developer",
+            "Bullets": [
+                {
+                    "Title": "Bullet_5",
+                    "Details": "Here I Explain the Bullet_5."
+                },
+                {
+                    "Title": "Bullet_6",
+                    "Details": "Here I Explain the Bullet_6."
+                },
+                {
+                    "Title": "Bullet_7",
+                    "Details": "Here I Explain the Bullet_7."
+                }
+            ]
+        },
+        {
+            "Employer": "University Of Pennsylvania - School of Medicine",
+            "Location": "Philadelphia, PA",
+            "JobTitle": "Biomedical App Developer",
+            "Bullets": [
+                {
+                    "Title": "Bullet_8",
+                    "Details": "Here I Explain the Bullet_8."
+                },
+                {
+                    "Title": "Bullet_9",
+                    "Details": "Here I Explain the Bullet_9."
+                },
+                {
+                    "Title": "Bullet_10",
+                    "Details": "Here I Explain the Bullet_10."
+                }
+            ]
+        },
+        {
+            "Employer": "Cigna",
+            "Location": "Philadelphia, PA",
+            "JobTitle": "Incident Management Co-op",
+            "Bullets": [
+                {
+                    "Title": "Bullet_11",
+                    "Details": "Here I Explain the Bullet_11."
+                },
+                {
+                    "Title": "Bullet_12",
+                    "Details": "Here I Explain the Bullet_12."
+                },
+                {
+                    "Title": "Bullet_13",
+                    "Details": "Here I Explain the Bullet_13."
+                }
+            ]
+        }
+    ]
+}

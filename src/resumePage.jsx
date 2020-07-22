@@ -7,8 +7,12 @@ class ResumePage extends React.Component {
         return(
             <div id="ResumePage">
                 <h2>Summary</h2>
-                <p> Hi I'm Nick, a recent CS graduate from Drexel University</p>
-                <ExpSect employer="Team Aspen" location="Philadelphia, PA" jobTitle="Developer"/>
+                <p>{this.props.SecInfo.Summary.Paragraph}</p>
+                {
+                    this.props.SecInfo.Experiences.map((experience, i) => {
+                        return <ExpSect  key ={i} experience={experience}/>
+                    })
+                }
             </div>
         );
     }

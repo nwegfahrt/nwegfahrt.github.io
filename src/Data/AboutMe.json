@@ -6,22 +6,22 @@
         {
             "Employer": "Team Aspen/ASH API (Senior Project)",
             "Location": "Philadelphia, PA",
-            "JobTitle": "Developer",
+            "JobTitle": "Developer (Volunteer)",
             "Bullets": [
                 {
-                    "Title": "Bullet_1",
-                    "Details": "Here I Explain the Bullet_1."
+                    "Title": "Developed components and pages for an affective analysis application using ReactJS",
+                    "Details": "Constructed cmponents necessary for our Notifications, Settings. Additionaly, built a custom donut chart component for use accross the application."
                 },
                 {
-                    "Title": "Bullet_2",
-                    "Details": "Here I Explain the Bullet_2."
+                    "Title": "Implemented a notification system using ReactiveX Observables and React-Toastify",
+                    "Details": "Used observables to in order to trigger toast notifications upon recieving a new notification from our ASH API "
                 },
                 {
-                    "Title": "Bullet_3",
-                    "Details": "Here I Explain the Bullet_3."
+                    "Title": "Built driver ABC in Python, with base functionality, for use in specific device driver implementations",
+                    "Details": ""
                 },
                 {
-                    "Title": "Bullet_4",
+                    "Title": "Customized and managed the team's agile Jira Board",
                     "Details": "Here I Explain the Bullet_4."
                 }
             ]
@@ -32,16 +32,20 @@
             "JobTitle": "R&D Developer",
             "Bullets": [
                 {
-                    "Title": "Bullet_5",
+                    "Title": "Developed bug fixes to support a large-scale VB.NET and C# application",
                     "Details": "Here I Explain the Bullet_5."
                 },
                 {
-                    "Title": "Bullet_6",
+                    "Title": "Thrived in an agile scrum development environment, delivering in two week sprints",
                     "Details": "Here I Explain the Bullet_6."
                 },
                 {
-                    "Title": "Bullet_7",
+                    "Title": "Coordinated with local and national team members to plan sprints and support releases",
                     "Details": "Here I Explain the Bullet_7."
+                },
+                {
+                    "Title": "On-boarded new developers to a legacy system and improved system documentation",
+                    "Details": "Here I Explain the Bullet_8."
                 }
             ]
         },
@@ -51,16 +55,16 @@
             "JobTitle": "Biomedical App Developer",
             "Bullets": [
                 {
-                    "Title": "Bullet_8",
-                    "Details": "Here I Explain the Bullet_8."
-                },
-                {
-                    "Title": "Bullet_9",
+                    "Title": "Tested ReactJS components using Jest/Enzyme",
                     "Details": "Here I Explain the Bullet_9."
                 },
                 {
-                    "Title": "Bullet_10",
+                    "Title": "Developed components for use in a ReactJS/Redux biomedical application",
                     "Details": "Here I Explain the Bullet_10."
+                },
+                {
+                    "Title": "Constructed epics using the redux-observable library",
+                    "Details": "Here I Explain the Bullet_11."
                 }
             ]
         },
@@ -70,16 +74,16 @@
             "JobTitle": "Incident Management Co-op",
             "Bullets": [
                 {
-                    "Title": "Bullet_11",
-                    "Details": "Here I Explain the Bullet_11."
-                },
-                {
-                    "Title": "Bullet_12",
+                    "Title": "Created a wireframe for a web application to meet a company goal",
                     "Details": "Here I Explain the Bullet_12."
                 },
                 {
-                    "Title": "Bullet_13",
+                    "Title": "Introduced new Key Performance Indicators for better measuring department productivity",
                     "Details": "Here I Explain the Bullet_13."
+                },
+                {
+                    "Title": "Helped resolve daily Incident Tickets as well as evaluating ticket histories for anomalies",
+                    "Details": "Here I Explain the Bullet_14."
                 }
             ]
         }

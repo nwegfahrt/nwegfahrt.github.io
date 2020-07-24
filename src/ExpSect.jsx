@@ -15,7 +15,6 @@ class ExpSect extends React.Component {
                         return <ExpandBullet overview={bullet.Title} detail={bullet.Details}/>
                     })
                 }
-                <ExpandBullet overview="Implemented a Python ABC class for device controllers" detail="Our system neede to interface with a clients Webcam and GSR device"/>
             </div>
         );
     }

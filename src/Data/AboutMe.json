@@ -10,7 +10,7 @@
             "Bullets": [
                 {
                     "Title": "Developed components and pages for an affective analysis application using ReactJS",
-                    "Details": "Constructed cmponents necessary for our Notifications, Settings. Additionaly, built a custom donut chart component for use accross the application."
+                    "Details": "Constructed components necessary for our Notifications, Settings. Additionaly, built a custom donut chart component for use accross the application."
                 },
                 {
                     "Title": "Implemented a notification system using ReactiveX Observables and React-Toastify",

@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ResumePage from './resumePage.jsx'
-import AboutMe from './Data/AboutMe.json'
+import AboutMe from './data/AboutMe.json'
 
 class Test extends React.Component {
   render() {

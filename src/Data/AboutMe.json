@@ -7,6 +7,11 @@
             "Employer": "Team Aspen/ASH API (Senior Project)",
             "Location": "Philadelphia, PA",
             "JobTitle": "Developer (Volunteer)",
+            "Image": {
+                "src":"./ashLogoSquare.png",
+                "width": "250px;",
+                "height": "40px"
+            },
             "Bullets": [
                 {
                     "Title": "Developed components and pages for an affective analysis application using ReactJS",
@@ -30,6 +35,11 @@
             "Employer": "IPipeline",
             "Location": "Philadelphia, PA",
             "JobTitle": "R&D Developer",
+            "Image": {
+                "src":"./iPipeline.png",
+                "width": "450px;",
+                "height": "40px"
+            },
             "Bullets": [
                 {
                     "Title": "Developed bug fixes to support a large-scale VB.NET and C# application",
@@ -53,6 +63,11 @@
             "Employer": "University Of Pennsylvania - School of Medicine",
             "Location": "Philadelphia, PA",
             "JobTitle": "Biomedical App Developer",
+            "Image": {
+                "src":"./UPenn_Shield.png",
+                "width": "300px;",
+                "height": "40px"
+            },
             "Bullets": [
                 {
                     "Title": "Tested ReactJS components using Jest/Enzyme",
@@ -72,6 +87,11 @@
             "Employer": "Cigna",
             "Location": "Philadelphia, PA",
             "JobTitle": "Incident Management Co-op",
+            "Image": {
+                "src":"./Cigna_logo.png",
+                "width": "350px;",
+                "height": "40px"
+            },
             "Bullets": [
                 {
                     "Title": "Created a wireframe for a web application to meet a company goal",

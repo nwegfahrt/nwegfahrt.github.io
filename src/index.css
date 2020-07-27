@@ -13,6 +13,11 @@ h3 {
     margin-block-end: 1%;
 }
 
+body
+{
+    background-color: #07294D;
+}
+
 #bulletLine {
     display: flex;
 }
@@ -26,19 +31,29 @@ h3 {
 }
 
 #watermark{
-    position: relative;
-    width: 600px;
     opacity: 15%;
+    margin: 2.5% 0px;
+}
+
+#expText{
+    text-align:left;
 }
 
 #expSect{
     position: relative;
+    margin-top: 2%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: inset 0px 0px 10px #07294D;
+    width: 80%;
+    margin: 2% 10%;
+    display:block;
+    text-align:center;
 }
 
-#expText{
-    padding-top: 25%;
+#expSect #expText{
     position: absolute;
-    text-align: center;
+    padding: 0px 10%;
     z-index: 999;
-
+    top: 0%;
 }

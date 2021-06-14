@@ -15,7 +15,16 @@ h3 {
 
 body
 {
-    background-color: #07294D;
+    background-color: #9fbfe0;
+}
+
+.bulletSec{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: 
+        ". . c c c c c c c c  . .";
+    grid-auto-rows: 40px auto 40px;
 }
 
 #bulletLine {
@@ -32,14 +41,28 @@ body
 
 #watermark{
     opacity: 15%;
-    margin: 2.5% 0px;
+    /*margin: auto auto;
+    position: absolute;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display:block;
+    z-index: 999;
+
 }
 
 #expText{
     text-align:left;
+    width:50%;
+    margin:0px 20%;
 }
 
 #expSect{
+    background-image: url(./imgs/ashLogoSquare.png);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: center;
+
     position: relative;
     margin-top: 2%;
     background-color: whitesmoke;
@@ -52,8 +75,6 @@ body
 }
 
 #expSect #expText{
-    position: absolute;
     padding: 0px 10%;
-    z-index: 999;
     top: 0%;
 }

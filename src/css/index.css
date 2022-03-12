@@ -15,7 +15,7 @@ h3 {
 
 body
 {
-    background-color: #07294D;
+    background-color: #d9eafc;
 }
 
 #bulletLine {
@@ -28,6 +28,11 @@ body
 
 #bulletDetail{
     margin: 1.5% 5%;
+}
+
+#content {
+    font-family: Arial;
+    color: #055cad
 }
 
 #watermark{
@@ -56,4 +61,15 @@ body
     padding: 0px 10%;
     z-index: 999;
     top: 0%;
+}
+
+#toggle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border-color:#1c3755;
+    text-align: center;
+    outline:none;
+    background-color:#07294D;
+    color: whitesmoke;
 }

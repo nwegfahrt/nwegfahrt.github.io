@@ -10,16 +10,18 @@ class ExpSect extends React.Component {
         let image = images(this.props.experience.Image.src)
         return (
             <div id='expSect'>
-                <img id="watermark" src={image} width= {this.props.experience.Image.width} alt="Error"></img>
+                {/*<img id="watermark" src={image} width={this.props.experience.Image.width} alt="Error"></img>*/}
                 <div id="expText" >
                     <h2> {this.props.experience.Employer} </h2>
                     <h5 id="subDetail"> {this.props.experience.Location} </h5>
                     <h3> {this.props.experience.JobTitle} </h3> 
-                    {
-                        this.props.experience.Bullets.map((bullet, i) => {
-                            return <ExpandBullet overview={bullet.Title} detail={bullet.Details}/>
-                        })
-                    }
+                    <div classname='BulletSec'>
+                        {
+                            this.props.experience.Bullets.map((bullet, i) => {
+                                return <ExpandBullet overview={bullet.Title} detail={bullet.Details}/>
+                            })
+                        }
+                    </div>
                 </div>
             </div>
         );

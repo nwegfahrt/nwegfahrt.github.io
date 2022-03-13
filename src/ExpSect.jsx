@@ -9,7 +9,8 @@ class ExpSect extends React.Component {
         const images = require.context('./imgs', true);
         let image = images(this.props.experience.Image.src)
         return (
-            <div id='expSect'>
+            <div id='expSect' >
+                <div id='watermark' style={{backgroundImage:`url(${image})`}} />
                 {/*<img id="watermark" src={image} width={this.props.experience.Image.width} alt="Error"></img>*/}
                 <div id="expText" >
                     <h2> {this.props.experience.Employer} </h2>

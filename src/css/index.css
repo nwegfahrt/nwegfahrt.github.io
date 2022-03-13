@@ -32,36 +32,39 @@ body
 
 #content {
     font-family: Arial;
-    color: #055cad
+    color: #12375a
 }
 
 #watermark{
-    opacity: 15%;
-    /*margin: auto auto;
-    position: absolute;*/
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center;
+    opacity: 20%;
+    position: absolute;
+    /*top: 0;
+    left: 0;
+    margin: auto auto;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    display:block;
-    z-index: 999;
-
+    margin-top: auto;*/
+    z-index: 0;
+    height: 100%;
+    width: 100%;
 }
 
 #expText{
     text-align:left;
     width:50%;
     margin:0px 20%;
+    z-index:1;
 }
 
 #expSect{
-    background-image: url(./imgs/ashLogoSquare.png);
-    background-repeat: no-repeat;
-    background-size: 33%;
-    background-position: center;
-
+   /* background-image: url(../imgs/ashLogoSquare.png);*/
     position: relative;
     margin-top: 2%;
-    background-color: whitesmoke;
+    background-color: rgb(245,245,245); /* whitesmoke;*/
     border-radius: 25px;
     box-shadow: inset 0px 0px 10px #07294D;
     width: 80%;

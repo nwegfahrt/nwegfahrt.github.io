@@ -4,6 +4,38 @@
     },
     "Experiences": [
         {
+            "Employer": "Fieldprint Inc.",
+            "Location": "Mt. Laurel, NJ",
+            "JobTitle": "Application Support Developer",
+            "Image": {
+                "src":"./FieldprintLogo.png",
+                "width": "250px;",
+                "height": "40px"
+            },
+            "Bullets": [
+                {
+                    "Title": "Implement solutions for new functionality and for support of our C#.NET applications",
+                    "Details": "Constructed components necessary for our Notifications, Settings. Additionaly, built a custom donut chart component for use accross the application."
+                },
+                {
+                    "Title": "Work with SQL and SSMS to create and update stored procedures, edit table structures and query data",
+                    "Details": "Used observables to in order to trigger toast notifications upon recieving a new notification from our ASH API "
+                },
+                {
+                    "Title": "Collaborate with project managers and internal stakeholders to refine project parameters",
+                    "Details": ""
+                },
+                {
+                    "Title": "Balance development tasks with support items to best meet business goals",
+                    "Details": "Here I Explain the Bullet_4."
+                },
+                {
+                    "Title": "Participate in after hours and weekend patch support",
+                    "Details": "Here I Explain the Bullet_4."
+                }
+            ]
+        },
+        {
             "Employer": "Team Aspen/ASH API (Senior Project)",
             "Location": "Philadelphia, PA",
             "JobTitle": "Developer (Volunteer)",

@@ -69,9 +69,19 @@ body
     border-radius: 25px;
     box-shadow: inset 0px 0px 10px #07294D;
     width: 80%;
-    margin: 2% 10%;
+    margin: 0.5% 10%;
     display:block;
     text-align:center;
+    padding: 1% 0%;
+    /*opacity:75%;*/
+}
+
+#expOfficeBackground
+{
+    padding: 2% 0%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 #expSect #expText{

@@ -7,10 +7,16 @@
             "Employer": "Fieldprint Inc.",
             "Location": "Mt. Laurel, NJ",
             "JobTitle": "Application Support Developer",
-            "Image": {
-                "src":"./FieldprintLogo.png",
-                "width": "250px;",
-                "height": "40px"
+            "Images": {
+                "Logo":{
+                    "src":"./Logos/FieldprintLogo.png",
+                    "width": "250px;",
+                    "height": "40px"
+                },
+                "Office":{
+                    "src":"./Offices/VerticalScreenOffice.avif"
+                }
+
             },
             "Bullets": [
                 {
@@ -39,10 +45,15 @@
             "Employer": "Team Aspen/ASH API (Senior Project)",
             "Location": "Philadelphia, PA",
             "JobTitle": "Developer (Volunteer)",
-            "Image": {
-                "src":"./ashLogoSquare.png",
-                "width": "250px;",
-                "height": "40px"
+            "Images": {
+                "Logo":{
+                    "src":"./Logos/ashLogoSquare.png",
+                    "width": "250px;",
+                    "height": "40px"
+                },
+                "Office":{
+                    "src":"./Offices/DrexelClassroom.jpg"
+                }
             },
             "Bullets": [
                 {
@@ -67,10 +78,15 @@
             "Employer": "IPipeline",
             "Location": "Philadelphia, PA",
             "JobTitle": "R&D Developer",
-            "Image": {
-                "src":"./iPipeline.png",
-                "width": "450px;",
-                "height": "40px"
+            "Images": {
+                "Logo": {
+                    "src":"./Logos/iPipeline.png",
+                    "width": "450px;",
+                    "height": "40px"
+                },
+                "Office":{
+                    "src":"./Offices/IPipelineOffice.jpg"
+                }
             },
             "Bullets": [
                 {
@@ -95,10 +111,15 @@
             "Employer": "University Of Pennsylvania - School of Medicine",
             "Location": "Philadelphia, PA",
             "JobTitle": "Biomedical App Developer",
-            "Image": {
-                "src":"./UPenn_Shield.png",
-                "width": "300px;",
-                "height": "40px"
+            "Images": {
+                "Logo": {
+                    "src":"./Logos/UPenn_Shield.png",
+                    "width": "300px;",
+                    "height": "40px"
+                },
+                "Office":{
+                    "src":"./Offices/PennPrezOffice.jpg"
+                }
             },
             "Bullets": [
                 {
@@ -119,10 +140,15 @@
             "Employer": "Cigna",
             "Location": "Philadelphia, PA",
             "JobTitle": "Incident Management Co-op",
-            "Image": {
-                "src":"./Cigna_logo.png",
-                "width": "350px;",
-                "height": "40px"
+            "Images": {
+                "Logo": {
+                    "src":"./Logos/Cigna_logo.png",
+                    "width": "350px;",
+                    "height": "40px"
+                },
+                "Office":{
+                    "src":"./Offices/CignaOffice_1.jpg"
+                }
             },
             "Bullets": [
                 {
